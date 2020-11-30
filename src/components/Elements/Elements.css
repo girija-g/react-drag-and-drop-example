@@ -1,0 +1,25 @@
+.elements {
+  border-right: 1px solid grey;
+  height: 100vh;
+  flex: 0.15;
+  background-color: #eeb4c5;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border: 1px dashed green;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.element__icon {
+  flex: 0.6;
+}
+
+.element__name {
+  font-size: 20px;
+}

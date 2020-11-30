@@ -1,0 +1,16 @@
+.dropAreaHeader {
+  border-bottom: 1px dotted grey;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  background-color: #ef9f8e;
+}
+
+.dropAreaHeader > div {
+  font-size: 30px;
+  margin: 10px;
+  border: 1px dashed black;
+  background-color: #f0f0f0;
+  padding: 5px;
+  cursor: pointer;
+}
