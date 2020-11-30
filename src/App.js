@@ -14,6 +14,9 @@ const App = () => {
     var myobj = document.getElementById(idCounter - 1)
     myobj.remove()
     setIdCounter(idCounter - 1)
+    let arr = [...dropBoxArray]
+    arr = arr.slice(0, idCounter - 2)
+    setdropBoxArray(arr)
   }
 
   const clearChanges = () => {

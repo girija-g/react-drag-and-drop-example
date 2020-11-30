@@ -4,9 +4,9 @@ import "./DropAreaHeader.css"
 const DropAreaHeader = ({ undoChange, clearChanges }) => {
   return (
     <div className="dropAreaHeader">
-      {/*<div onClick={undoChange}>
+      <div onClick={undoChange}>
         <Undo />
-  </div>*/}
+      </div>
       <div onClick={clearChanges}>
         <Delete />
       </div>
