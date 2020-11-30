@@ -100,7 +100,7 @@ const App = () => {
   }
   return (
     <div className="app">
-      <div className="app__header">Hi Girija! Welcome to React Gui Builder</div>
+      <div className="app__header">Hi User! Welcome to React Gui Builder</div>
       <div className="app__body">
         <Elements drag={drag} />
         <DropArea
